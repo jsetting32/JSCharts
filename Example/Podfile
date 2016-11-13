@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'JSCharts_Example' do
+  pod 'JSCharts', :path => '../'
+
+  target 'JSCharts_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
