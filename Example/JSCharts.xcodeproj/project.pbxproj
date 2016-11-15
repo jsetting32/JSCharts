@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		07A46B088F1D61EB3C122C61 /* Pods_JSCharts_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149B160DB736C8F53128AFBB /* Pods_JSCharts_Example.framework */; };
+		1EE42E6B1DD807DC00A3DDF0 /* JSCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42E6A1DD807DC00A3DDF0 /* JSCView.m */; };
+		1EE42E711DD82D4400A3DDF0 /* CAShapeLayer+JSCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42E701DD82D4400A3DDF0 /* CAShapeLayer+JSCAdditions.m */; };
+		1EE42E741DD83A2B00A3DDF0 /* JSCDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42E731DD83A2B00A3DDF0 /* JSCDataPoint.m */; };
+		1EE42EA31DD9921400A3DDF0 /* UIColor+JSCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE42EA21DD9921400A3DDF0 /* UIColor+JSCAdditions.m */; };
 		464E4BB42FCD72FD8BE06F07 /* Pods_JSCharts_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7659808F1F20848EAEEEFF5 /* Pods_JSCharts_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -36,11 +40,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13A605686AB2E4BE5018F0E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		13A605686AB2E4BE5018F0E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		149B160DB736C8F53128AFBB /* Pods_JSCharts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSCharts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28B94A2D595D82C4EE2398F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1EE42E691DD807DC00A3DDF0 /* JSCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCView.h; sourceTree = "<group>"; };
+		1EE42E6A1DD807DC00A3DDF0 /* JSCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCView.m; sourceTree = "<group>"; };
+		1EE42E6F1DD82D4400A3DDF0 /* CAShapeLayer+JSCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+JSCAdditions.h"; sourceTree = "<group>"; };
+		1EE42E701DD82D4400A3DDF0 /* CAShapeLayer+JSCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+JSCAdditions.m"; sourceTree = "<group>"; };
+		1EE42E721DD83A2B00A3DDF0 /* JSCDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCDataPoint.h; sourceTree = "<group>"; };
+		1EE42E731DD83A2B00A3DDF0 /* JSCDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCDataPoint.m; sourceTree = "<group>"; };
+		1EE42EA11DD9921400A3DDF0 /* UIColor+JSCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSCAdditions.h"; sourceTree = "<group>"; };
+		1EE42EA21DD9921400A3DDF0 /* UIColor+JSCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JSCAdditions.m"; sourceTree = "<group>"; };
+		28B94A2D595D82C4EE2398F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3962B43060000E85F1EE83EC /* Pods-JSCharts_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCharts_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSCharts_Example/Pods-JSCharts_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		56FE4B1B47AA3B3126063338 /* JSCharts.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JSCharts.podspec; path = ../JSCharts.podspec; sourceTree = "<group>"; };
+		56FE4B1B47AA3B3126063338 /* JSCharts.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JSCharts.podspec; path = ../JSCharts.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JSCharts_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSCharts_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,6 +147,14 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* JSCViewController.h */,
 				6003F5A6195388D20070C39A /* JSCViewController.m */,
+				1EE42EA11DD9921400A3DDF0 /* UIColor+JSCAdditions.h */,
+				1EE42EA21DD9921400A3DDF0 /* UIColor+JSCAdditions.m */,
+				1EE42E691DD807DC00A3DDF0 /* JSCView.h */,
+				1EE42E6A1DD807DC00A3DDF0 /* JSCView.m */,
+				1EE42E6F1DD82D4400A3DDF0 /* CAShapeLayer+JSCAdditions.h */,
+				1EE42E701DD82D4400A3DDF0 /* CAShapeLayer+JSCAdditions.m */,
+				1EE42E721DD83A2B00A3DDF0 /* JSCDataPoint.h */,
+				1EE42E731DD83A2B00A3DDF0 /* JSCDataPoint.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -390,9 +410,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE42E741DD83A2B00A3DDF0 /* JSCDataPoint.m in Sources */,
 				6003F59E195388D20070C39A /* JSCAppDelegate.m in Sources */,
+				1EE42E711DD82D4400A3DDF0 /* CAShapeLayer+JSCAdditions.m in Sources */,
 				6003F5A7195388D20070C39A /* JSCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1EE42EA31DD9921400A3DDF0 /* UIColor+JSCAdditions.m in Sources */,
+				1EE42E6B1DD807DC00A3DDF0 /* JSCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
